@@ -1,0 +1,26 @@
+.bg-lightblue {
+    background-color: #84cdec;
+}
+
+ .jumbo-img {
+   background-image: url("../images/jumbo-img.jpg");
+   background-size: cover;
+   height: 420px;
+   margin-bottom: 0;
+   background-position: bottom;
+
+ }
+
+
+/* .center-me {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  height: 420px;
+} */
+
+.center-jumbo {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
