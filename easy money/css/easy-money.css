@@ -1,0 +1,87 @@
+.bg-img {
+    background-image: linear-gradient(#ff00dd08, #ff00dd1c);
+    min-height: 100vh;
+}
+
+.logo {
+     width: 20px;
+     height: 20px;
+}
+
+.nav-link {
+    color: gray;
+}
+
+a.nav-link:hover {
+    color: #33cedee6;
+}
+
+.active {
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-link.active::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #33cedee6;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 3px);
+    border-radius: 50%;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.jumbotron {
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+.green-tick {
+    vertical-align: middle;
+    border-style: none;
+    width: 22px;
+    height: 22px;
+}
+
+h5 {
+    font-size: 1.25rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.buttons-jumbo {
+    padding: 1.1rem 1.35rem;
+    border-radius: 0.9rem;
+}
+
+.box-1 {
+    background-color: #00d0ff2b;
+    border-radius: 0.9rem;
+    padding: 16px;
+}
+
+.box-2 {
+    background-color: #8500ff1f;
+    border-radius: 0.9rem;
+    padding: 16px;
+    }
+
+.box-3 {
+    background-color: #0072ff26;
+    border-radius: 0.9rem;
+    padding: 16px;
+    }
+
+.shape {
+    height: 37px;
+}
+
+.text-small {
+    font-size: 15px;
+}
