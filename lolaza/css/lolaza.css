@@ -1,0 +1,219 @@
+body {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+/* @media (min-width: 860px) and (max-width: 1180px) {
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    .display-4 {
+        font-size: 2.15rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    .explore-button {
+        font-size: 0.75rem;
+    }
+
+    .carousel-caption {
+        top: 66px;
+    }
+
+    h6 {
+        font-size: 0.7rem;
+    }
+
+}
+
+@media (min-width: 592px) and (max-width: 859px) {
+    h5 {
+        font-size:  0.6rem;
+    }
+
+    .display-4 {
+        font-size:  1rem;
+    }
+
+    h1 {
+        margin: none;
+    }
+
+    p {
+        font-size:  rem;
+    }
+
+    .explore-button {
+        font-size:  rem;
+    }
+
+    h6 {
+        font-size: 0.6rem;
+    }
+} */
+
+@media (max-width: 754px) {
+    .custom-carousel h5{
+        display: none;
+    }
+
+    .custom-carousel p{
+        display: none;
+    }
+
+    .display-4 {
+        font-size:  1rem;
+    }
+
+    h6 {
+        font-size: 0.6rem;
+    }
+}
+.custom-font {
+    font-family: Candara;
+}
+
+.custom-carousel {
+    width: 100%;
+    margin-top: -56px;
+}
+
+.custom-nav {
+    z-index:10;
+}
+
+a.white-link {
+  color: white;
+}
+
+a.white-link:hover {
+  color: white;
+}
+
+.custom-button {
+    background-color: transparent;
+    padding: 0;
+    color: white;
+}
+
+.custom-carousel .carousel-caption {
+    top: 98px;
+    left: 52%;
+    text-align: left;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.capitalize {
+    text-transform:capitalize;
+}
+
+.custom-carousel .carousel-caption h5 {
+    /* color: red; */
+}
+
+.explore-button {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.rotate-text {
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -130%;
+    text-align: right;
+    bottom: -28px;
+}
+
+/* wholesale */
+
+.text-small {
+
+    font-size: small;
+
+}
+
+.btn-wholesale {
+    display: block;
+    width: 119px;
+}
+
+.text-resize {
+
+    font-size: 15px;
+
+}
+
+h5.pseudo {
+    position: relative;
+}
+
+h5.pseudo::before {
+
+    position: absolute;
+    content: "";
+    background-color: #ffe100;
+    width: 2px;
+    height: 31px;
+    top: 9px;
+    left: -10px;
+
+}
+
+a.btn-wholesale:hover {
+    background-color: #ffe100;;
+}
+
+.split-image {
+
+    display: grid;
+    grid-template-columns: 36.0714285714286% 63.9285714285714%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+
+}
+
+.split-image .img-fluid:first-of-type {
+
+    padding: 10px 5px 0 0;
+    border-radius: 0 0 0 15px;
+}
+
+}
+
+.split-image .img-fluid:last-of-type {
+
+    padding: 10px 0 0 5px;
+    border-radius: 0 0 15px 0;
+
+}
+
+.img-1 {
+border-radius: 15px 15px 0 0;
+}
+
+
+
+.img-new-arrivals {
+    width: 100%;
+    border-radius: 6%;
+}
+
+.btn-new-arrivals {
+    margin-left: 338px;
+    margin-top: 20px;
+    padding: 4px 27px;
+}
+
+.product-box {
+
+}
